@@ -1,0 +1,49 @@
+seletores de css
+*prioridades: elemento sozinho(h2)<class<id
+*color: red !important; (esse important estabelece prioridade sob outras caracteristicas;
+* por classes quando queremos alterar mais de um elemento
+* por id quando for somente um elemento
+*seleção por classefeita com .nomedaclasse;
+*seleçao por id feita com #nomedoid;
+*selecionar todos os elementos com '*'
+*podemos selecionar mais de um elemendo usando virgula (p, h1)
+*para alterar um link já clicado .seletor:visited {aqui a propriedade quando link visitado1}
+*para alterar um link quando o mouse passa sobre .seletor:hover {aqui a propriedade quando o mouse passar em cima}
+*selecionando via pseudo seletor:
+.nome-elemento p:first-child {aqui a as caracteristicas}
+*selecionando via pseudo elemento:
+.nome-elemento::first-letter {aqui a as caracteristicas}
+
+
+-----------
+propriedades 
+
+padding: 2px 7px espaçamento interno
+padding-left: determina o lado do espaçameento
+margin: espaçamento externo
+border: 5px solid #234966; (tamanho tipo cor)
+border-bottom: 1px solid;
+border-radius: 5px; (variação no raio da borda)
+background-color: red;
+font-size:
+font-weight: (vai de 100 a 900) 
+width: 200px (largura)
+height: 100px (altura)
+line-height: 40px;(altura da linha)
+list-style: none;(tira o estilo da lista)
+text-align: center;
+text-transform: lowercase; (transform em minuscula)
+text-transform: uppercase;(transform em maiuscula)
+letter-spacing: 8px; (espacamento entre letras)
+text-decoration: none; (tira formatacao do texto)
+transition: 0.5s;(usado qnd necessário transiçao.ex link hover)
+display: block; (faz o elemento pegar toda a linha??????)
+display: inline-block;(coloca elementos d linha separada na msm linha)
+display: block;(coloca elementos em linhas separadas)
+display: none; (esconde o item)
+
+
+----------
+pesquisar: 
+elementos inline/block;
+pseudo elementos/pseudo seletor;
