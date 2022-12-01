@@ -1,0 +1,164 @@
+body {
+    padding: 20px;
+    font-family: Helvetica;
+}
+
+
+
+/* para chamar classes*/
+/* chamar classe */
+.meu-paragrafo {
+    background-color: red;
+    padding: 50px;
+    border-bottom: 1px solid;
+}
+
+/*chamar id*/
+
+#titulo-principal {
+    background-color: yellow;
+}
+
+
+
+.box-model {
+    border: 1px solid;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    margin: 100px;
+
+}
+
+.alinhamento {
+    text-align: center;
+
+}
+
+.transform-maiuscula {
+    text-transform: uppercase;
+}
+
+.transform-minuscula {
+    text-transform: lowercase;
+
+}
+
+.texto-espacamento {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+
+
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: rgb(224, 244, 7);
+}
+
+.estilo-hover:hover {
+    background-color: red;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: blueviolet;
+    border: 5px solid #234966;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    width: 120px;
+    padding: 2px 8px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: rgb(222, 19, 63);
+    border: 5px solid #000000;
+    border-radius: 5px;
+    display: block;
+    color: rgb(219, 239, 1);
+    width: 120px;
+    padding: 2px 8px;
+    margin: 20px;
+    text-align: center;
+}
+
+.sem-estilo {
+    list-style: none;
+}
+
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+}
+
+.elemento-fixo:hover {
+    position: fixed;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #342299;
+    border-bottom: 2px solid #342299;
+}
+
+/*PSEUDO SELETOR */
+.primeiro-elemento p:first-child {
+    color: red;
+    background-color: #000000;
+}
+
+/*PSEUDO ELEMENTO */
+.primeira-letra::first-letter {
+    font-size: 40px;
+    color: blue;
+    background-color: red;
+    padding: 4px;
+}
+
+
+h2 {
+    color: red !important;
+}
+
+.titulo {
+    color: green;
+}
+
+#meu-titulo-preferido {
+    color: blue;
+}
